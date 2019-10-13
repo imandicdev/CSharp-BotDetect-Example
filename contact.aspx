@@ -1,15 +1,15 @@
-﻿<%@ Page Language="C#"  MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="~/contact-Dede-Emerson.aspx.cs" Inherits="_About_Dede_Emerson"  %>
+﻿<%@ Page Language="C#"  MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="~/contact.aspx.cs" Inherits="SomePage"  %>
 <%@ Register Assembly="BotDetect" Namespace="BotDetect.Web.UI" 
     TagPrefix="BotDetect" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" Runat="Server">
         <title>Contact author Dede Emerson</title>
-    <meta name="description" content ="Contact Karl Milde, author of The Airplane, The Commuter Train and The Road Ranger" />
+    <meta name="description" content ="Contact Ilija Mandic author of this bullshit" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
     <form id="form1" runat="server">
     <div class="jumbotron">
-<img src="images/Dede-Emerson-NYC-photographer.jpg" alt="Dede Emerson, author of book of photos of Manhattan" class="pull-right" />
+<img src="images/xxx.jpg" alt="John Smith author of the Fairy Tales of the Intermediary Madness" class="pull-right" />
 <h1 >Contact Dede Emerson</h1>
     <h3>
      
@@ -77,7 +77,7 @@ Email address:</td><td><asp:TextBox ID="txtEmail" Columns ="45" runat="server"><
         
       </div> 
     </fieldset> 
-    <asp:Button ID="Button1" runat="server" Text="Contact the Author" />  
+    <asp:Button ID="Button1" runat="server" Text="Contact me" />  
 
     
 
