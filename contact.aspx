@@ -3,7 +3,7 @@
     TagPrefix="BotDetect" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" Runat="Server">
-        <title>Contact author Dede Emerson</title>
+        <title>Contact Me</title>
     <meta name="description" content ="Contact Ilija Mandic author of this bullshit" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
