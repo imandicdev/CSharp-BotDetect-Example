@@ -8,11 +8,11 @@ using System.Web.UI.WebControls;
 using BotDetect;
 using BotDetect.Web;
 
-//Custom Captcha validation and emailing function
-//Copyright (c) Ilija Mandic, Devtonomy Software Development, www.devtonomy.com
+//Custom Captcha validation and mailing 
+//(c) I.Mandic, Software Development Services https://imandic.tk
 
 
-public partial class _About_Dede_Emerson : System.Web.UI.Page
+public partial class SomePage : System.Web.UI.Page
 {
 
     
@@ -89,8 +89,8 @@ public partial class _About_Dede_Emerson : System.Web.UI.Page
     {
         editCode ec = new editCode();
 
-        ec.SendMailMessage("Contact from Dede Emerson Author Website", txtEmail.Text, txtName.Text, txtMessage.Text);
-        lblResult.Text = "Thank you for contacting  Dede Emerson. <br />";
+        ec.SendMailMessage("Contact from Website", txtEmail.Text, txtName.Text, txtMessage.Text);
+        lblResult.Text = "Thank you for contacting me. <br />";
         txtName.Enabled = false;
         txtEmail.Enabled = false;
         txtPhone.Enabled = false;
