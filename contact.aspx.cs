@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 using BotDetect;
 using BotDetect.Web;
 
-//Custom Captcha validation and email sending function
+//Custom Captcha validation and emailing function
 //Copyright (c) Ilija Mandic, Devtonomy Software Development, www.devtonomy.com
 
 
