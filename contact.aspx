@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div class="jumbotron">
 <img src="images/xxx.jpg" alt="John Smith author of the Fairy Tales of the Intermediary Madness" class="pull-right" />
-<h1 >Contact Dede Emerson</h1>
+<h1 >Contact Ilija Mandic</h1>
     <h3>
      
 <asp:Label ID="lblResult" Font-Bold="true"  runat ="server" Text="" ></asp:Label>
